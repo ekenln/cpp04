@@ -6,7 +6,7 @@
 /*   By: eeklund <eeklund@student.42.fr>              +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2025/03/31 11:04:15 by eeklund       #+#    #+#                 */
-/*   Updated: 2025/03/31 12:19:51 by eeklund       ########   odam.nl         */
+/*   Updated: 2025/03/31 17:12:43 by eeklund       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,5 +44,5 @@ std::string	Animal::getType( void ) const
 
 void	Animal::makeSound( void) const
 {
-	std::cout << "Generic animal sound\n";
+	std::cout << "* Generic animal sound *\n";
 }

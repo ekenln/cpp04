@@ -6,7 +6,7 @@
 /*   By: eeklund <eeklund@student.42.fr>              +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2025/03/31 11:21:03 by eeklund       #+#    #+#                 */
-/*   Updated: 2025/03/31 12:17:11 by eeklund       ########   odam.nl         */
+/*   Updated: 2025/03/31 17:24:29 by eeklund       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@ Dog::Dog() : Animal()
 
 Dog::~Dog()
 {
-	// delete this;
 	std::cout << "DOG default destructor called\n";
 }
 Dog::Dog(const Dog& old) : Animal(old) {};
@@ -36,5 +35,5 @@ Dog&	Dog::operator=(const Dog& D)
 
 void	Dog::makeSound( void ) const
 {
-	std::cout << "DOG is barking\n";
+	std::cout << "woof woof aoooooooiii\n";
 }

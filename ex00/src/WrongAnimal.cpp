@@ -6,19 +6,19 @@
 /*   By: eeklund <eeklund@student.42.fr>              +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2025/03/31 11:39:55 by eeklund       #+#    #+#                 */
-/*   Updated: 2025/03/31 11:46:04 by eeklund       ########   odam.nl         */
+/*   Updated: 2025/03/31 17:23:00 by eeklund       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "WrongAnimal.hpp"
 
-WrongAnimal::WrongAnimal()
+WrongAnimal::WrongAnimal() : _type("noType")
 {
-	std::cout << "Wrong Animal default construcotr called\n";
+	std::cout << "WrongAnimal default constructor called\n";
 }
 WrongAnimal::~WrongAnimal()
 {
-	std::cout << "Wrong Animal default destructor called\n";
+	std::cout << "WrongAnimal default destructor called\n";
 }
 WrongAnimal::WrongAnimal(const WrongAnimal& old) : _type(old._type) {};
 
@@ -38,5 +38,5 @@ std::string		WrongAnimal::getType( void ) const
 
 void	WrongAnimal::makeSound( void ) const
 {
-	std::cout << "woffmjuaooshhh ...WRONG ANIMALcd\n";
+	std::cout << "woffmjuaooshhh ...WRONG ANIMAL\n";
 }
